@@ -1,23 +1,21 @@
-import './App.css';
+import React from 'react'
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
-    <div className="app-container">
-      <div className="card">
-        <h1 className="title">
-          Hello <span>Ganesha</span> 👋
+    <div className='uper-div'>
+    <div className='main-div'>
+      <div>
+        <h1 className='header1'>
+          Hello Gaensha!!
+            Baby how are you!!
         </h1>
-
-        <p className="subtitle">
-          BABY, How are YOU!!! 😄
-        </p>
-
-        <button className="btn">
-          Get Started 🚀
-        </button>
       </div>
+
+
     </div>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
