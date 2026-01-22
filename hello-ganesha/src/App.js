@@ -1,21 +1,11 @@
-import React from 'react'
-import "./App.css"
-
-const App = () => {
+function App() {
   return (
-    <div className='uper-div'>
-    <div className='main-div'>
-      <div>
-        <h1 className='header1'>
-          Hello Gaensha!!
-            Baby how are you!!
-        </h1>
-      </div>
-
-
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>🚀 React CI/CD Pipeline</h1>
+      <h2>Deployed using Jenkins & Docker</h2>
+      <p>Build Time: {new Date().toString()}</p>
     </div>
-    </div>
-  )
+  );
 }
 
-export default App
+export default App;
